@@ -8,11 +8,12 @@
     4. After all changes you've to wait because javascript file save changes may take time to reflect */ 
 
     $domain = "longhousee.group/"; //like this: codingnepalweb.com/
-    $host = "localhost";
-    $user = "root"; //Database username
-    $pass = ""; //Database password
-    $db = "longhousee"; //Database name
+    $host = "127.0.0.1";
+    $user = "shortlink"; //Database username
+    $pass = "12345678"; //Database password
+    $db = "shortlink"; //Database name
     $protocol = "http";
+
     if(isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on') {
         $protocol = "https";
     }

@@ -18,6 +18,7 @@ if(isset($_GET)){
 		}
 	}
 }
+
 ?>
 
 <!DOCTYPE html>
